@@ -1,0 +1,44 @@
+body {
+  background: white;
+}
+
+.MainSearch {
+  border: 1px solid lightgray;
+  width: 400px;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  height: 25px;
+}
+
+.MainSearch h1,
+.MainSearch form {
+  text-align: center;
+}
+
+.MainSearch form input[type=search] {
+  width: 300px;
+  margin-right: 5px;
+}
+
+.MainSearch h1 {
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+}
+
+.MainSearch form {
+  margin-bottom: 1em;
+}
+
+footer {
+  margin-top: 25px;
+}
+
+footer div {
+  text-align: center;
+  font-size: smaller;
+  font-weight: lighter;
+  color: lightgray;
+}
